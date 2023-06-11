@@ -191,6 +191,11 @@ a.pure-button-primary {
 
 }
 
+.about {
+  margin-top: -0.2em;
+  margin-bottom: 1em;
+}
+
 /* We want to give the content area some more padding */
 .content {
     padding: 1em 1em 3em;
@@ -211,7 +216,7 @@ a.pure-button-primary {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin: 2em 0 1em;
+    margin: 2em 0 0.2em;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
