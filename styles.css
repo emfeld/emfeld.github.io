@@ -184,6 +184,8 @@ a.pure-button-primary {
     /* These styles are required for the "scroll-over" effect */
     position: absolute;
     top: 87%;
+    left: 0;
+    right: 0;
     width: 100%;
     min-height: 12%;
     z-index: 2;
@@ -198,7 +200,7 @@ a.pure-button-primary {
 
 /* We want to give the content area some more padding */
 .content {
-    padding: 1em 1em 3em;
+    padding: 1em 7em 3em;
     background-color: #eee;
 }
 
@@ -304,6 +306,7 @@ a.pure-button-primary {
     /* We remove the border-separator assigned to .l-box-lrg */
     .l-box-lrg {
         border: none;
+        padding: 1em 7em 3em;
     }
 
 }
